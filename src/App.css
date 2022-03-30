@@ -1,11 +1,85 @@
-.App {
+/* .App {
   text-align: center;
   background-color: black;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: auto;
   color: white;
+} */
+
+.form-control {
+  background-color: rgb(85, 84, 84);
+  width: 100%;
+  margin-bottom: 20px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+
+.card {
+  margin: auto;
+  width: 18rem;
+  border: 1px solid white;
+  border-radius: 6px;
+  padding: 30px;
+  background-color: rgb(53, 48, 48);
+}
+
+.button {
+  margin-top: 50px;
+  padding: 5px 30px; 
+  border: none; 
+  border-radius: 3px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 30px;
+}
+
+.navbar {
+  height: 7vh;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 30px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+nav div {
+  display: flex;
+}
+
+nav .left-side {
+  flex: 50%;
+  align-items: center;
+}
+
+nav .right-side {
+  flex: 50%;
+  justify-content: flex-end; 
+  align-items: center;
+}
+
+nav .right-side a {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 8px 20px;
+  border-radius: 10px;
 }
