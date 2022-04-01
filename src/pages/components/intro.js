@@ -1,4 +1,4 @@
-import Button from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom';
 import Image from './frame.png';
 
 function Intro() {
@@ -8,8 +8,8 @@ function Intro() {
             <h1>Easy, Fast and Reliable</h1>
             <p>Go shopping for mrchandise, just go to dumb merch shopping, the biggest merchandise in Indonesia</p>
             <div className="d-rows gap-2">
-                <Button className='button' style={{backgroundColor: 'red', width: '30%'}}>Login</Button>
-                <Button className='button' style={{backgroundColor: 'black', width: '30%'}}>Register</Button>
+                <Link to="/category"><button className='button' style={{backgroundColor: 'red', width: '30%'}}>Login</button></Link>
+                <Link to="/register"><button className='button' style={{backgroundColor: 'black', width: '30%'}}>Register</button></Link>
             </div>
         </div>
     );
